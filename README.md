@@ -1,14 +1,16 @@
 # Tabular Cleaning and Entity Resolution
 
-Planned Python portfolio project for cleaning inconsistent records and reviewing likely duplicate entities.
+**Independent Project Showcase**
 
-**Status: project brief and repository setup only.** No cleaning engine, entity matcher or performance benchmark has been implemented. This repository is not yet a finished service demonstration.
+Project specification for cleaning inconsistent records and reviewing likely duplicate entities.
 
-## Intended showcase
+**Current scope:** Project specification and reproducible environment setup. Implementation and benchmark results are pending.
+
+## Project scope
 
 Start with a bounded, permitted public tabular sample. Normalize text and dates, report missing values and quality issues, then propose entity matches for review against a small labeled reference set. Measure larger-volume behavior only after the sample is correct.
 
-| Planned deliverable | Evidence needed |
+| Target deliverable | Evidence needed |
 | --- | --- |
 | Cleaning rules and change report | Counts reconcile with the input; originals remain unchanged |
 | Candidate entity matches | Labeled examples and precision/recall with an explicit review threshold |
@@ -34,6 +36,6 @@ This diagram describes the proposed workflow.
 
 No dataset, credentials, generated records or claimed client results are included. The local Veyra workspace can use its shared Conda environment for this project. A separate clone can create its own environment later with `conda env create --prefix ./.conda --file environment.yml`.
 
-## Next milestone
+## Implementation sequence
 
 Select the source and define a small labeled entity-matching evaluation before implementing the cleaning engine. Source selection and benchmark results will be recorded when actually completed.

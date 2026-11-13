@@ -4,7 +4,7 @@
 
 Inconsistent strings, timestamp formats and duplicate entity records make tabular sources difficult to analyze. This project should show traceable cleaning decisions and measurable entity-matching behavior.
 
-## First implementation scope
+## Implementation scope
 
 Use one permitted public dataset and a bounded sample. Record source URL, access date, license, selected columns and sampling rules. Preserve raw inputs locally. Normalize only fields whose meaning has been established. Report missingness and rejected rows instead of silently inventing missing values.
 
@@ -20,8 +20,8 @@ Build candidate entity matches and evaluate them against labeled positive and ne
 
 ## Deferred decisions
 
-Polars or DuckDB is a candidate for the execution engine; choose one against the selected source. RapidFuzz is a candidate for match scoring. No processing packages are installed for this planned repository yet.
+Polars or DuckDB is a candidate for the execution engine; choose one against the selected source. RapidFuzz is a candidate for match scoring. No processing packages are installed for this repository.
 
 ## Publication boundary
 
-The repository contains a plan only. Keep source records, generated results, private identifiers and credentials out of commits. A future case study must distinguish measured results from proposals.
+The repository currently contains the project specification and environment setup. Keep source records, generated results, private identifiers and credentials out of commits. A future case study must distinguish measured results from proposals.
