@@ -4,3 +4,7 @@ channels:
 dependencies:
   - python=3.12.16
   - pytest=8.4.2
+  - pip=26.2.2
+  - pip:
+      - -r requirements.txt
+      - -r requirements-dev.txt
