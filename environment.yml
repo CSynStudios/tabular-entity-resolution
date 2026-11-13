@@ -1,0 +1,6 @@
+name: tabular-entity-resolution
+channels:
+  - defaults
+dependencies:
+  - python=3.12.16
+  - pytest=8.4.2
